@@ -5,12 +5,11 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Payment;
-use Exception;
 
 class PaymentController extends Controller
 {
 
-    public function charge(Request $request)
+    public function pay(Request $request)
     {
         if($request) {
             $payment = new Payment;

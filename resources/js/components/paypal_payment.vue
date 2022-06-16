@@ -59,7 +59,7 @@ function initPayPalButton() {
         onApprove: async (data, actions) => {
             return actions.order.capture().then(function (details) {
                 alert("Transaction completed by " + details.payer.name.given_name);
-                return fetch("/charge", {
+                return fetch("/pay", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",

@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PaymentController;
-use App\Http\Controllers\PayPalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +19,7 @@ Route::get('{any}', function () {
 })->where('any', '.*');
 Route::post('/')->name('home');
 
-Route::post('charge' ,[PaymentController::class,'charge']);
+Route::post('pay' ,[PaymentController::class,'pay']);
 
 
 
