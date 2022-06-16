@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <button type="button" class="btn btn-primary">Selected</button>
+                <!-- <button type="button" class="btn btn-primary">Selected</button> -->
                 <vue-good-table ref="my-table" :select-options="{ enabled: true }" :search-options="{ enabled: true }" :columns="columns" :pagination-options="{enabled: true,perPage: 5}" :rows="rows" :paginate="true" :globalSearch="true">
                     <template slot="table-row">
                     </template>

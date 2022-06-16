@@ -21,9 +21,6 @@ Route::get('{any}', function () {
 Route::post('/')->name('home');
 
 Route::post('charge' ,[PaymentController::class,'charge']);
-// Route::get('/transactions' ,[PaymentController::class,'transactions']);
-// Route::post('success' ,[PaymentController::class,'success']);
-// Route::post('error' ,[PaymentController::class,'error']);
 
 
 

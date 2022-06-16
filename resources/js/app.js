@@ -1,16 +1,15 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-// import PayPal from 'vue-paypal-checkout'
 import router from './routes'
 import storeData from './store/store.js'
 import "vue-select/dist/vue-select.css";
+import App from './components/App.vue';
 import VueGoodTablePlugin from 'vue-good-table';
 
 // import the styles
 import 'vue-good-table/dist/vue-good-table.css'
 Vue.use(VueGoodTablePlugin);
 
-import App from './components/App.vue';
 
 require('./bootstrap');
 

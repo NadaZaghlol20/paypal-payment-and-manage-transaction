@@ -4,12 +4,12 @@ import Form from 'vform'
 import {  HasError, AlertError } from 'vform/components/bootstrap5'
 
 
-import home_page from './components/home_page.vue'
+import paypal_payment from './components/paypal_payment.vue'
 import show_transactions from './components/show_transactions.vue'
 
 
 export const routes = [
-    {  path: '/', component: home_page , name:'home_page' },
+    {  path: '/', component: paypal_payment , name:'paypal_payment' },
     {  path: '/show_transactions', component: show_transactions , name:'show_transactions' },
 
 ];

@@ -5304,6 +5304,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {};
@@ -5347,10 +5353,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home_page.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home_page.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/paypal_payment.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/paypal_payment.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -5366,10 +5372,6 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-//
-//
-//
-//
 //
 //
 //
@@ -5566,15 +5568,15 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
 /* harmony import */ var _store_store_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./store/store.js */ "./resources/js/store/store.js");
 /* harmony import */ var _store_store_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_store_store_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var vue_select_dist_vue_select_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-select/dist/vue-select.css */ "./node_modules/vue-select/dist/vue-select.css");
-/* harmony import */ var vue_good_table__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-good-table */ "./node_modules/vue-good-table/dist/vue-good-table.esm.js");
-/* harmony import */ var vue_good_table_dist_vue_good_table_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-good-table/dist/vue-good-table.css */ "./node_modules/vue-good-table/dist/vue-good-table.css");
-/* harmony import */ var _components_App_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/App.vue */ "./resources/js/components/App.vue");
+/* harmony import */ var _components_App_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/App.vue */ "./resources/js/components/App.vue");
+/* harmony import */ var vue_good_table__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-good-table */ "./node_modules/vue-good-table/dist/vue-good-table.esm.js");
+/* harmony import */ var vue_good_table_dist_vue_good_table_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-good-table/dist/vue-good-table.css */ "./node_modules/vue-good-table/dist/vue-good-table.css");
 /* harmony import */ var vuelidate__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! vuelidate */ "./node_modules/vuelidate/lib/index.js");
 /* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
 /* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_9__);
@@ -5584,7 +5586,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_progressbar__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(vue_progressbar__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _vue_composition_api__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @vue/composition-api */ "./node_modules/@vue/composition-api/dist/vue-composition-api.mjs");
 
- // import PayPal from 'vue-paypal-checkout'
+
 
 
 
@@ -5592,38 +5594,37 @@ __webpack_require__.r(__webpack_exports__);
  // import the styles
 
 
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].use(vue_good_table__WEBPACK_IMPORTED_MODULE_5__["default"]);
-
+vue__WEBPACK_IMPORTED_MODULE_5__["default"].use(vue_good_table__WEBPACK_IMPORTED_MODULE_6__["default"]);
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].use(vuex__WEBPACK_IMPORTED_MODULE_7__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_5__["default"].use(vuex__WEBPACK_IMPORTED_MODULE_7__["default"]);
 var store = new vuex__WEBPACK_IMPORTED_MODULE_7__["default"].Store((_store_store_js__WEBPACK_IMPORTED_MODULE_1___default())); //Vuelidate
 
 
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].use(vuelidate__WEBPACK_IMPORTED_MODULE_8__["default"]); //vueselect
+vue__WEBPACK_IMPORTED_MODULE_5__["default"].use(vuelidate__WEBPACK_IMPORTED_MODULE_8__["default"]); //vueselect
 
 
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].component("v-select", (vue_select__WEBPACK_IMPORTED_MODULE_9___default()));
-window.Fire = new vue__WEBPACK_IMPORTED_MODULE_4__["default"]();
+vue__WEBPACK_IMPORTED_MODULE_5__["default"].component("v-select", (vue_select__WEBPACK_IMPORTED_MODULE_9___default()));
+window.Fire = new vue__WEBPACK_IMPORTED_MODULE_5__["default"]();
 
 window.swal = (sweetalert2__WEBPACK_IMPORTED_MODULE_10___default());
 
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].use((vue_progressbar__WEBPACK_IMPORTED_MODULE_11___default()), {
+vue__WEBPACK_IMPORTED_MODULE_5__["default"].use((vue_progressbar__WEBPACK_IMPORTED_MODULE_11___default()), {
   color: 'rgb(143, 255, 199)',
   failedColor: 'red',
   height: '3px'
 });
 
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].use(_vue_composition_api__WEBPACK_IMPORTED_MODULE_12__["default"]);
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].component('ExampleComponent', (__webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]));
-var app = new vue__WEBPACK_IMPORTED_MODULE_4__["default"]({
+vue__WEBPACK_IMPORTED_MODULE_5__["default"].use(_vue_composition_api__WEBPACK_IMPORTED_MODULE_12__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_5__["default"].component('ExampleComponent', (__webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]));
+var app = new vue__WEBPACK_IMPORTED_MODULE_5__["default"]({
   el: '#app',
   store: store,
   router: _routes__WEBPACK_IMPORTED_MODULE_0__["default"],
   render: function render(h) {
-    return h(_components_App_vue__WEBPACK_IMPORTED_MODULE_6__["default"]);
+    return h(_components_App_vue__WEBPACK_IMPORTED_MODULE_3__["default"]);
   }
 });
 
@@ -5682,7 +5683,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
 /* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vform */ "./node_modules/vform/dist/vform.es.js");
 /* harmony import */ var vform_components_bootstrap5__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vform/components/bootstrap5 */ "./node_modules/vform/src/components/bootstrap5/index.js");
-/* harmony import */ var _components_home_page_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/home_page.vue */ "./resources/js/components/home_page.vue");
+/* harmony import */ var _components_paypal_payment_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/paypal_payment.vue */ "./resources/js/components/paypal_payment.vue");
 /* harmony import */ var _components_show_transactions_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/show_transactions.vue */ "./resources/js/components/show_transactions.vue");
 
 
@@ -5692,8 +5693,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [{
   path: '/',
-  component: _components_home_page_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-  name: 'home_page'
+  component: _components_paypal_payment_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  name: 'paypal_payment'
 }, {
   path: '/show_transactions',
   component: _components_show_transactions_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
@@ -43760,10 +43761,10 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/home_page.vue":
-/*!***********************************************!*\
-  !*** ./resources/js/components/home_page.vue ***!
-  \***********************************************/
+/***/ "./resources/js/components/paypal_payment.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/paypal_payment.vue ***!
+  \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -43771,8 +43772,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _home_page_vue_vue_type_template_id_385644b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home_page.vue?vue&type=template&id=385644b4& */ "./resources/js/components/home_page.vue?vue&type=template&id=385644b4&");
-/* harmony import */ var _home_page_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home_page.vue?vue&type=script&lang=js& */ "./resources/js/components/home_page.vue?vue&type=script&lang=js&");
+/* harmony import */ var _paypal_payment_vue_vue_type_template_id_2b2d5276___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./paypal_payment.vue?vue&type=template&id=2b2d5276& */ "./resources/js/components/paypal_payment.vue?vue&type=template&id=2b2d5276&");
+/* harmony import */ var _paypal_payment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./paypal_payment.vue?vue&type=script&lang=js& */ "./resources/js/components/paypal_payment.vue?vue&type=script&lang=js&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -43782,9 +43783,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _home_page_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _home_page_vue_vue_type_template_id_385644b4___WEBPACK_IMPORTED_MODULE_0__.render,
-  _home_page_vue_vue_type_template_id_385644b4___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _paypal_payment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _paypal_payment_vue_vue_type_template_id_2b2d5276___WEBPACK_IMPORTED_MODULE_0__.render,
+  _paypal_payment_vue_vue_type_template_id_2b2d5276___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -43794,7 +43795,7 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/home_page.vue"
+component.options.__file = "resources/js/components/paypal_payment.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -43870,10 +43871,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/home_page.vue?vue&type=script&lang=js&":
-/*!************************************************************************!*\
-  !*** ./resources/js/components/home_page.vue?vue&type=script&lang=js& ***!
-  \************************************************************************/
+/***/ "./resources/js/components/paypal_payment.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/paypal_payment.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -43881,8 +43882,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_home_page_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./home_page.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home_page.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_home_page_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_paypal_payment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./paypal_payment.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/paypal_payment.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_paypal_payment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -44101,19 +44102,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/home_page.vue?vue&type=template&id=385644b4&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/components/home_page.vue?vue&type=template&id=385644b4& ***!
-  \******************************************************************************/
+/***/ "./resources/js/components/paypal_payment.vue?vue&type=template&id=2b2d5276&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/paypal_payment.vue?vue&type=template&id=2b2d5276& ***!
+  \***********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_home_page_vue_vue_type_template_id_385644b4___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_home_page_vue_vue_type_template_id_385644b4___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_paypal_payment_vue_vue_type_template_id_2b2d5276___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_paypal_payment_vue_vue_type_template_id_2b2d5276___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_home_page_vue_vue_type_template_id_385644b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./home_page.vue?vue&type=template&id=385644b4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home_page.vue?vue&type=template&id=385644b4&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_paypal_payment_vue_vue_type_template_id_2b2d5276___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./paypal_payment.vue?vue&type=template&id=2b2d5276& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/paypal_payment.vue?vue&type=template&id=2b2d5276&");
 
 
 /***/ }),
@@ -44474,28 +44475,55 @@ var staticRenderFns = [
               { staticStyle: { width: "100%" }, attrs: { action: "" } },
               [
                 _c(
-                  "div",
+                  "nav",
                   {
-                    staticClass: "input-group",
-                    staticStyle: { width: "100%" },
+                    staticClass:
+                      "navbar navbar-expand-lg navbar-light bg-light",
                   },
                   [
-                    _c("input", {
-                      staticClass: "form-control form-control-lg",
-                      staticStyle: { width: "75%" },
-                      attrs: { type: "search", placeholder: "Search..." },
-                    }),
+                    _c(
+                      "a",
+                      { staticClass: "navbar-brand", attrs: { href: "/" } },
+                      [_vm._v("PayPal Payment")]
+                    ),
                     _vm._v(" "),
-                    _c("div", { staticClass: "input-group-append" }, [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "btn btn-lg btn-default",
-                          attrs: { type: "submit" },
+                    _c(
+                      "button",
+                      {
+                        staticClass: "navbar-toggler",
+                        attrs: {
+                          type: "button",
+                          "data-toggle": "collapse",
+                          "data-target": "#navbarSupportedContent",
+                          "aria-controls": "navbarSupportedContent",
+                          "aria-expanded": "false",
+                          "aria-label": "Toggle navigation",
                         },
-                        [_c("i", { staticClass: "fa fa-search" })]
-                      ),
-                    ]),
+                      },
+                      [_c("span", { staticClass: "navbar-toggler-icon" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse navbar-collapse",
+                        attrs: { id: "navbarSupportedContent" },
+                      },
+                      [
+                        _c("ul", { staticClass: "navbar-nav" }, [
+                          _c("li", { staticClass: "nav-item active" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "nav-link",
+                                attrs: { href: "/show_transactions" },
+                              },
+                              [_vm._v("Transactions")]
+                            ),
+                          ]),
+                        ]),
+                      ]
+                    ),
                   ]
                 ),
               ]
@@ -44560,10 +44588,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home_page.vue?vue&type=template&id=385644b4&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home_page.vue?vue&type=template&id=385644b4& ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/paypal_payment.vue?vue&type=template&id=2b2d5276&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/paypal_payment.vue?vue&type=template&id=2b2d5276& ***!
+  \**************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -44686,12 +44714,6 @@ var render = function () {
         "div",
         { staticClass: "col-md-12" },
         [
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "button" } },
-            [_vm._v("Selected")]
-          ),
-          _vm._v(" "),
           _c(
             "vue-good-table",
             {

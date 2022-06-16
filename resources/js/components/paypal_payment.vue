@@ -16,10 +16,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- <div class="modal-footer">
-                            <button type="submit" class="btn btn-success">Pay</button>
-                        </div> -->
                     </form>
                     <div class="mx-auto w-50">
                         <div style="text-align: center;">
